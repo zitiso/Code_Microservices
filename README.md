@@ -1,5 +1,5 @@
-# GoLang_Microservice
-microservice for DevOps using Docker and Jenkins - written in golang
+# Code_Microservices
+Microservice for DevOps using Docker and Jenkins
 
 ## Team
 - Christine Thomson - author
@@ -7,6 +7,6 @@ microservice for DevOps using Docker and Jenkins - written in golang
 - Tehilla Helfenbaum - programmer
 
 ## Goals
-1. To translate code into both java and python
+1. To translate golang code into both java and python
 2. To make programs executable for use in Docker
 
