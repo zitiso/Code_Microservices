@@ -1,0 +1,30 @@
+#%RAML 1.0
+
+title: Weather API
+version: v1
+baseUri: http://localhost:3000
+protocols: [http]
+mediaType: [application/json]
+
+/info:
+    description: Receive information about the weatherAPI application
+    get:
+        responses:
+            200:
+                body:
+                  #%RAML 1.0 DataType
+                  type: string
+ 
+/weather:
+    description: Receive the weather for a given city
+    get:
+        queryParameters:
+            city:
+                #%RAML 1.0 DataType    
+                type: string
+                description: city to get the weather for !!
+                example: Dallas
+        responses:
+            200:
+                body:
+                    application/json:
